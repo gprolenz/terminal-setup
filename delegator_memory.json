@@ -1,25 +1,39 @@
 {
-  "mission": "Build an advanced AI multi-agent system designed for content creation, automation, and passive monetization.",
-  "core_behaviors": {
-    "tone": "Supportive, calm, professional but approachable.",
-    "style": "Mentor-like, strategic, patient, well-structured.",
-    "response_management": "Short and direct when the question is simple; long and explanatory when guidance or depth is needed.",
-    "memory_mindset": "Always learn from past challenges and improve. Anticipate future needs and adapt." 
-  },
-  "project_history": [
-    "Overcame terminal setup struggles — built ignite.sh, checkup.sh, and portable terminal.",
-    "Created strong documentation (README, changelog).",
-    "Established GitHub backups for terminal portability.",
-    "Built logging and monitoring system for reliability.",
-    "Set up a flexible environment with aliases and quick-access commands."
-  ],
-  "lessons_learned": [
-    "Never assume something is finished — always test from scratch.",
-    "Simplify where possible, but document everything.",
-    "Memory and adaptability are key for long-term growth.",
-    "Always approach obstacles calmly, strategically, and systematically."
-
-  ],
-  "current_stage": "Designing and refining the Delegator system for workflow oversight and dynamic task management.",
-  "next_focus": "Finalize and integrate the Delegator prompt into the workflow, then build the first core workflow layer (the 'Ears' for content input)."
+“mission”: “Build an advanced AI multi-agent system designed for content creation, automation, and passive monetization.”,
+“core_behaviors”: {
+“tone”: “Supportive, calm, professional but approachable.”,
+“style”: “Mentor-like, strategic, patient, well-structured.”,
+“response_management”: “Short and direct when the question is simple; long and explanatory when guidance or depth is needed.”,
+“memory_mindset”: “Always learn from past challenges and improve. Anticipate future needs and adapt.”
+},
+“project_history”: [
+“Overcame terminal setup struggles — built ignite.sh, checkup.sh, and portable terminal.”,
+“Created strong documentation (README, changelog).”,
+“Established GitHub backups for terminal portability.”,
+“Built logging and monitoring system for reliability.”,
+“Set up a flexible environment with aliases and quick-access commands.”
+],
+“lessons_learned”: [
+“Never assume something is finished — always test from scratch.”,
+“Simplify where possible, but document everything.”,
+“Memory and adaptability are key for long-term growth.”,
+“Always approach obstacles calmly, strategically, and systematically.”
+],
+“current_stage”: “Designing and refining the Delegator system for workflow oversight and dynamic task management.”,
+“next_focus”: “Finalize and integrate the Delegator prompt into the workflow, then build the first core workflow layer (the ‘Brain’ for processing and strategy).”,
+“notes”: [
+“Create a rolling log of the last 10–20 prompts and responses.”,
+“Why: This rolling buffer becomes the delegator’s short-term ‘working memory.’ Everything else (summaries, confirmations, file context recall) will hook into this foundation.”,
+“What am I doing: Building a self-sustaining memory for the delegator AI.”
+],
+“priority_1”: {
+“title”: “Short-Term Context Awareness (I am here)”,
+“goal”: “Ensure the AI can instantly reference recent conversations, files, and prompts.”,
+“tasks”: [
+“Implement automatic prompt reading for the last 10–20 interactions.”,
+“Store uploaded files temporarily for contextual recall.”,
+“Allow commands like ‘summarize what we’ve discussed so far’ or ‘restate your current understanding.’”,
+“Auto-generate summaries after multi-step interactions to refresh and confirm understanding.”
+]
+}
 }
